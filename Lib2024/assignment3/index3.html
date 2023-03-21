@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-		<title> Assignment 3 March 20th 2022 </title>
+		<title> Assignment 3 March 20th 2023 </title>
 
 	<style type="text/css">
 		h1 {
@@ -62,14 +62,26 @@ font-family: helvetica;
 font-size: 15px;
 }
 
+#box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: cadetblue;
+}
+#animate {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: lightpink;
+}
 
 	</style>
 
 <body>
 
-
 		<h1> Why Outlander is my favourite book series of all time. </h1>
 		<h5>Copyright Olivia McKeen </h5>
+
 
 <p> Outlander by Diana Gabaldon is by far the best book series I have ever read in my entire life. It is jam packed full of history, adventure, trauma, true love and most importantly time travel. </p>
 
@@ -79,7 +91,6 @@ font-size: 15px;
 		<img class="books" src="images/outlanderseries.jpg" width="379" height="212" alt="complete book series">
 </div>
 		
-
 
 		<img class="main" src="images/claireandjamie.jpg" width="279" height="279" alt="the main characters"> 
 
@@ -100,9 +111,12 @@ font-size: 15px;
 <td><p> Brianna is the daughter of Jamie and Claire Fraser. Bri was concieved in Scotland in 1745 but was born in America in 1948.  </p> </td>	
 <td><p> Ian Murray 'Junior' is arguably one of the best characters, we first meet him as a quirky 14 year old and he grows into a very galant young man over the course of the books </p> </td>
 <td><p> Roger is one of the worst characters, he isn't a bad man he is just annoying and has very few redeming qualities. To top it off he and Brianna end up married with 2 kids.  </p> </td>
+</table>
 </div>
 
 <div>
+
+
 <h2 id="Ian"> Who is the best character? </h2>
 
 <button type="button" onclick="myFunction()">Click for answer</button>
@@ -117,4 +131,31 @@ function myFunction() {
 </div>
 
 
+<p><button onclick="myMove()">Click Me!</button></p> 
+
+<div id ="box">
+  <div id ="animate"></div>
+</div>
+
+<script>
+function myMove() {
+  let id = null;
+  const elem = document.getElementById("animate");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 150) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}	
+
+</script>
+
 </body>
+
