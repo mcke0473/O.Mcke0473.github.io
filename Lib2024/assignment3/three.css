@@ -1,0 +1,72 @@
+	<style type="text/css">
+		h1 {
+			font-family: helvetica;
+			font-size: 30px;
+			border-style: solid;
+			border-width:3px;
+			text-align: center;
+			border-color: blueviolet;
+
+		}
+		p {
+		   font-family: helvetica;
+		   font-size: 15px;
+		}
+
+	.books 
+	{ border-radius: 50%;
+	border-style: double;
+	border-width:2px;
+	border-color: green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+	.main {
+	border-radius: 50%;
+	border-style: double;
+	border-width:4px;
+	border-color: green;
+  	display: block;
+  	width: 20%;
+  	float: left;
+  	padding: 15px;
+	shape-outside: circle(50%);
+	margin: auto;
+	}
+
+	.main2 {
+	text-align: justify;
+      font-size: 15px;
+      font-family: helvetica;
+	}
+
+table, td {
+border: 1px solid;
+}
+
+.table {
+margin: auto;
+text-align: center;	
+width: 100%;
+padding: 10px;
+font-family: helvetica;
+font-size: 15px;
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: cadetblue;
+}
+#animate {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: lightpink;
+}
+
+	</style>
