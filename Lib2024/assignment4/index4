@@ -6,4 +6,26 @@
 </head> 
 <body>
 	<h1>Celsius to Fahrenheit Conversion</h1>
-	<img src="thermometer.jpg" alt="Thermometer Picture" style="float:left;width:200px;height:400px;">
+	<img src="images/thermometer.jpg" alt="Thermometer Picture" style="float:left;width:200px;height:400px;">
+	
+	<p>Enter the temperature in Celsius:</p>
+	<input type="text" id="celsius">
+	<button onclick="convertTemp()">Convert</button>
+	<p id="error"></p>
+	<p id="result"></p>
+	<script>
+
+		function convertTemp()  {
+			var celsius = document.getElementById("celsius").value;
+			if (isNaN(celsius)) {
+				document.getElementById("error").innerHTML = "Please enter a valid number.";
+				document.getElementById("result").innerHTML = "";
+			} else {
+				var fahrenheit = (celsius * 9/5) + 32;
+				document.getElementById("error").innerHTML = "";
+				document.getElementById("result").innerHTML = celsius + " degrees Celsius is " + fahrenheit + " degrees Fahrenheit.";
+			}	
+		}
+	</script>
+	</body>
+	</html>		
