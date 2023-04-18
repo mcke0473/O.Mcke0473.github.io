@@ -111,6 +111,9 @@ h1 {
     p {
        font-family: helvetica;
        font-size: 15px;
+       border-style: solid;
+       text-align: center;
+       border-color: palegreen;
     }
 
   .books 
@@ -143,3 +146,153 @@ h1 {
       font-family: helvetica;
   }
 
+
+
+
+.side {
+  overflow: auto; /* to clear any floats inside the container */
+}
+
+  .best {
+  border-radius: 50%;
+  border-style: double;
+  border-width:4px;
+  border-color: steelblue;
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 15px;
+  margin: 10px;
+  }
+
+.side1 {
+  overflow: auto; /* to clear any floats inside the container */
+}
+
+    .daughter {
+  border-radius: 50%;
+  border-style: double;
+  border-width:4px;
+  border-color: steelblue;
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 15px;
+  margin: 10px;
+  }
+
+
+.side2 {
+  overflow: auto; /* to clear any floats inside the container */
+}
+    .son-in-law {
+  border-radius: 50%;
+  border-style: double;
+  border-width:4px;
+  border-color: steelblue;
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 15px;
+  margin: 10px;
+  }
+
+.house1 {
+  overflow: auto; /* to clear any floats inside the container */
+}
+.bighouse {
+  border-radius: 50%;
+  border-style: double;
+  border-width:4px;
+  border-color: steelblue;
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 15px;
+  shape-outside: circle(50%);
+  margin: 10px;
+  }
+
+
+.house2 {
+  overflow: auto; /* to clear any floats inside the container */
+}
+  .lallybroch {
+  border-radius: 50%;
+  border-style: double;
+  border-width:4px;
+  border-color: seagreen;
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 15px;
+  shape-outside: circle(50%);
+  margin: 10px;
+  }
+
+
+.house3 {
+  overflow: auto; /* to clear any floats inside the container */
+}
+.parishouse {
+  border-radius: 50%;
+  border-style: double;
+  border-width:2px;
+  border-color: deeppink;
+    display: block;
+    width: 30%;
+    float: left;
+    padding: 15px;
+  shape-outside: circle(50%);
+  margin: 10px;
+  }
+
+.dog {
+  overflow: auto; /* to clear any floats inside the container */
+}
+  .rollo {
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin: 10px;
+  }
+
+  .sister {
+  overflow: auto; /* to clear any floats inside the container */
+}
+  .jenny {
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin: 10px;
+  }
+
+  .love {
+  overflow: auto; /* to clear any floats inside the container */
+}
+  .fergusandmarsali {
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin: 10px;
+  }
+
+  .frank {
+  overflow: auto; /* to clear any floats inside the container */
+}
+  .firsthusband {
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin: 10px;
+  }
+
+  .witch {
+  overflow: auto; /* to clear any floats inside the container */
+}
+  .geillis {
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin: 10px;
+  }
